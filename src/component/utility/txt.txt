@@ -1,0 +1,14 @@
+ // dataArray && <Product dataArray={dataArray}/>
+    <h1>hi</h1>
+    // <>
+    //   {
+    //   dataArray && dataArray.map((data) =>{
+    //    return( <Product
+    //       key={data.id}
+    //       newPrice={data.newPrice}
+    //       oldPrice={data.oldPrice}
+    //       productImage={data.productImage}
+    //       productName={data.productName}
+    //     />)
+    //    })}
+    // </>
