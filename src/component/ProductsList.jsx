@@ -8,7 +8,6 @@ function ProductsList() {
     <div className='productList has-scrollbar'>
       <h3>Products</h3>
       <div className='productContainer'>
-
     <Product />
       </div>
      

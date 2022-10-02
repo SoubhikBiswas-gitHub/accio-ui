@@ -1,10 +1,9 @@
-import React from 'react'
-import srcAbout from './utility/about.png'
-
-function About() {
+import React from "react";
+import srcshop from "./utility/shop.png";
+function Shop() {
   return (
     <div className="outer">
-      <h1 className="header header2">About</h1>
+      <h1 className="header header1">Shop</h1>
       <hr />
       <div className="text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
@@ -20,10 +19,10 @@ function About() {
         dolorem ducimus maiores provident?
       </div>
       <div className="pictureBox">
-        <img src={srcAbout} alt="shop" className="picture" />
+        <img src={srcshop} alt="shop" className="picture" />
       </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default Shop;

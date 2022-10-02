@@ -1,8 +1,13 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import starSrc from "./utility/star.png";
+import {useDispatch} from 'react-redux'
+import { incrementCounter } from "../action/Action";
+
+
 
 function Product() {
+  const dispatch = useDispatch()
   const [dataArray, setDataArray] = useState([]);
 
   useEffect(() => {
@@ -19,11 +24,11 @@ function Product() {
         let temp = [];
         for (let key in items) {
           temp.push(items[key]);
-          console.log(items[key]);
         }
         setDataArray(temp);
       });
   };
+
 
   return (
     dataArray &&
@@ -50,8 +55,9 @@ function Product() {
             </div>
           </div>
         </div>
-        <button className="cart">ADD TO CART</button>
+        <button className="cart" onClick={() => dispatch(incrementCounter())} >ADD TO CART</button>
       </div>
+      // onClick={() => dispatch(IN_NUM())}
     ))
   );
 }
