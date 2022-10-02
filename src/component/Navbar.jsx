@@ -23,7 +23,7 @@ function Navbar(props) {
               <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/aontact">Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
             <li>
               <Link to="/pages">Pages</Link>
