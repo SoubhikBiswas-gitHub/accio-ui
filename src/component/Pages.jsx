@@ -3,7 +3,7 @@ import srcPage from './utility/page.png'
 function Pages() {
     return (
         <div className="outer">
-          <h1 className="header header4">About</h1>
+          <h1 className="header header4">Pages</h1>
           <hr />
           <div className="text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
