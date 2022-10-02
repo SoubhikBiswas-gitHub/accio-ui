@@ -17,16 +17,16 @@ function Navbar(props) {
               <Link to="/">Home</Link>
             </li>
             <li>
-            <Link to="/Shop">Shop</Link>
+            <Link to="/shop">Shop</Link>
             </li>
             <li>
-              <Link to="/About">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/Contact">Contact</Link>
+              <Link to="/aontact">Contact</Link>
             </li>
             <li>
-              <Link to="/Pages">Pages</Link>
+              <Link to="/pages">Pages</Link>
             </li>
           </ul>
         </div>
